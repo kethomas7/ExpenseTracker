@@ -13,11 +13,11 @@ namespace ExpenseTracker
 
         public DateTime Date { get; set; }
 
-        public ExpenseCategory ExpenseCategory { get;set;}
+        //public ExpenseCategory ExpenseCategory { get;set;}
 
-        
+        public string ExpenseCategory { get; set; }
 
-        public Expense(string expenseName, decimal amount, DateTime date, ExpenseCategory expenseCategory)
+        public Expense(string expenseName, decimal amount, DateTime date, string expenseCategory)
         {
            
         }

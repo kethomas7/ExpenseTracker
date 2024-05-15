@@ -1,5 +1,6 @@
 ﻿
 
+using ExpenseTracker;
 using System;
 
 //Console.ForegroundColor = ConsoleColor.Magenta;//colors text a certain color
@@ -38,7 +39,7 @@ void MainMenu()
     switch (optionSelected)
     {
         case "1":
-            ExpenseManager.AddExpense();
+            AddExpense();
 
            break; //expense manager page
         case "2":
@@ -53,6 +54,27 @@ void MainMenu()
 
 MainMenu();
 
+
+void AddExpense()
+{
+    Console.WriteLine("Please enter the information regarding your expense:\n Expense Amount:");
+    decimal amount = Decimal.Parse(Console.ReadLine());
+    Console.WriteLine("Expense Category:");
+    string category = Console.ReadLine();
+    Console.WriteLine("Expense Name:");
+    string name = Console.ReadLine();
+    Console.WriteLine("Expense Date:");
+    DateTime date = DateTime.Parse(Console.ReadLine());
+
+
+    Expense Expense1 = new Expense(name, amount, date, category)
+    {
+        Amount = amount,
+        ExpenseCategory = category,
+        ExpenseName = name,
+        Date = date
+    };
+}
 //void exit()
 //{
 

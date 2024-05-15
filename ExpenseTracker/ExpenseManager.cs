@@ -6,30 +6,30 @@ using System.Threading.Tasks;
 
 namespace ExpenseTracker
 {
-    public class ExpenseManager:Expense
+    public class ExpenseManager
     {
-        public void AddExpense()
-        {
+        //public void AddExpense()
+        //{
 
-            Console.WriteLine("Please enter the information regarding your expense:\n Expense Amount:");
-            string amount = Console.ReadLine();
-            Console.WriteLine("Expense Category:");
-            string category = Console.ReadLine();
-            Console.WriteLine("Expense Name:");
-           string name= Console.ReadLine();
-            Console.WriteLine("Expense Date:");
-                 DateTime date = DateTime.Parse(Console.ReadLine());
+        //    Console.WriteLine("Please enter the information regarding your expense:\n Expense Amount:");
+        //    string amount = Console.ReadLine();
+        //    Console.WriteLine("Expense Category:");
+        //    string category = Console.ReadLine();
+        //    Console.WriteLine("Expense Name:");
+        //   string name= Console.ReadLine();
+        //    Console.WriteLine("Expense Date:");
+        //         DateTime date = DateTime.Parse(Console.ReadLine());
         
 
-            Expense PowerBill = new Expense()
-            {
-                Amount = decimal.Parse(amount),
-                ExpenseCategory = category,
-                ExpenseName = name,
-                Date = date
+        //    Expense PowerBill = new Expense()
+        //    {
+        //        Amount = decimal.Parse(amount),
+        //        ExpenseCategory = category,
+        //        ExpenseName = name,
+        //        Date = date
 
-            };
+        //    };
 
-        }
+        //}
     }
 }
