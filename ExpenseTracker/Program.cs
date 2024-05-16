@@ -5,24 +5,7 @@ using System;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Xml.Linq;
 
-//Console.ForegroundColor = ConsoleColor.Magenta;//colors text a certain color
-//Console.WriteLine("Welcome to Expense Tracker 3000");
-//Console.ResetColor();// sets it back to default color
 
-//Console.WriteLine("\nUse the ⬆️ and ⬇️ arrows to navigate and press the \u001b[32mEnter\u001b[0m key to select");
-
-//ConsoleKeyInfo key;
-// bool isSelected = false;
-
-//while (!isSelected)
-//{
-//    Console.WriteLine("    \u001b[32mAdd an expense\u001b[0m");
-//    Console.WriteLine("    See monthly expense report");
-//    Console.WriteLine("    Comparsion");
-
-//    key = Console.ReadKey(true);
-
-//}
 //var ExpenseList = new List<Expense>();
 
 var test1 = new Expense()
@@ -30,7 +13,7 @@ var test1 = new Expense()
     ExpenseName = "Walmart",
     ExpenseCategory = "Shopping",
     Amount = 589.65m,
-    Date = DateTime.Parse("10/10/2019")
+    Date = DateTime.Parse("10/10/2023")
 };
 var test2 = new Expense()
 {
@@ -41,13 +24,27 @@ var test2 = new Expense()
 };
 var test3 = new Expense()
 {
+    ExpenseName = "GasStation",
+    ExpenseCategory = "Gas",
+    Amount = 100.50m,
+    Date = DateTime.Parse("05/05/2023")
+};
+var test4 = new Expense()
+{
+    ExpenseName = "Burger King",
+    ExpenseCategory = "Food",
+    Amount = 5.65m,
+    Date = DateTime.Parse("09/16/2023")
+};
+var test5 = new Expense()
+{
     ExpenseName = "Long Horn",
     ExpenseCategory = "Food",
     Amount = 200.95m,
-    Date = DateTime.Parse("03/23/2017")
+    Date = DateTime.Parse("05/23/2023")
 };
 
-var ExpenseList = new List<Expense>() {test1, test2, test3};
+var ExpenseList = new List<Expense>() { test1, test2, test3,test4,test5 };
 
 void MainMenu()
 {
@@ -62,34 +59,39 @@ void MainMenu()
     Console.WriteLine("Option 4: Exit");
     Console.WriteLine("\nEnter 1, 2, 3, or 4 to navigate");
 
-   string optionSelected = Console.ReadLine();
+    string optionSelected = Console.ReadLine();
     switch (optionSelected)
     {
         case "1":
-           // AddExpense();
-          Console.WriteLine("Would you like to add another expense? Yes or No");
-          string answer = Console.ReadLine().ToLower();
-
-            if(answer == "yes")
-            {
             // AddExpense();
+            Console.WriteLine("Would you like to add another expense? Yes or No");
+            string answer = Console.ReadLine().ToLower();
+
+            if (answer == "yes")
+            {
+                // AddExpense();
             }
             else
             {
-            ExpenseSummaryCheck();
-              
+                ExpenseSummaryCheck();
+
             }
-          
-            break; 
+
+            break;
         case "2":
-            MonthlyExpenseReport();
+
+            Console.WriteLine("What month would you like to view?");
+            string nameOfMonth = Console.ReadLine();
+          int numberOfMonth = MonthConverter(nameOfMonth);
+            MonthlyExpenseReport(numberOfMonth);
+
             break;
         case "3":
             break;
         case "4":
             break;
     }
-   // MainMenu();
+    // MainMenu();
 }
 
 MainMenu();
@@ -131,24 +133,68 @@ void ExpenseSummaryCheck()
             Console.WriteLine($"\nExpense List Summary\n\nExpense Name: {item.ExpenseName} | Expense Cateorgy: {item.ExpenseCategory} | Date: {item.Date} | Amount: {item.Amount}");
         }
     }
-    else 
+    else
     {
         MainMenu();
     }
 }
 
-void MonthlyExpenseReport()
+void MonthlyExpenseReport(int monthNumber)
 {
-    var monthlyExpenses = ExpenseList.OrderBy(expense => expense.Date).ThenBy(expense => expense.Amount).ToList();
 
-    foreach(var expense in monthlyExpenses)
+    var monthlyExpenses = ExpenseList.Where(expense => expense.Date.Month == monthNumber).OrderBy(expense => expense.Date).ToList();
+    Console.WriteLine($"\nExpense List Summary");
+
+    foreach (var expense in monthlyExpenses)
     {
-        Console.WriteLine($"\nExpense List Summary\n\nExpense Name: {expense.ExpenseName} | Expense Cateorgy: {expense.ExpenseCategory} | Date: {expense.Date} | Amount: {expense.Amount}");
-    }
-    
-}//ask how will i get to say each month then list it out
 
-//for step 3 use switch statement for months
+        Console.WriteLine($"\nExpense Name: {expense.ExpenseName} | Expense Cateorgy: {expense.ExpenseCategory} | Date: {expense.Date} | Amount: {expense.Amount}");
+    }
+
+
+}
+
+int MonthConverter(string month)
+{
+
+    switch (month)
+    {
+        case "January":
+            return 1;
+        case "February":
+            return 2;
+        case "March":
+            return 3;
+        case "April":
+            return 4;
+        case "May":
+            return 5;
+        case "June":
+            return 6;
+        case "July":
+            return 7;
+        case "August":
+            return 8;
+        case "September":
+            return 9;
+        case "October":
+            return 10;
+        case "November":
+            return 11;
+        case "December":
+            return 12;
+        default: return 0;
+
+
+
+
+
+    }
+
+
+}
+
+
 
 //void exit()
 //{
