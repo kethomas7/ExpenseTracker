@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ExpenseTracker
 {
-    public enum  ExpenseCategory
-    {
-        Shopping,
-        Utilites,
-        Food
+    //public enum  ExpenseCategory
+    //{
+    //    Shopping,
+    //    Utilites,
+    //    Food
 
 
-    }
+    //}
 }
