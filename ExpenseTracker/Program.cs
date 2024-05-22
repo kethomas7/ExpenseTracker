@@ -50,7 +50,7 @@ var test5 = new Expense()
 var ExpenseList = new List<Expense>() { test1, test2, test3, test4, test5 };
 
 
-
+MainMenu();
 
  void MainMenu()
 {
