@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExpenseTracker
+namespace ExpenseTracker.Models
 {
     public class Expense
     {
@@ -13,14 +13,16 @@ namespace ExpenseTracker
 
         public DateTime Date { get; set; }
 
-        //public ExpenseCategory ExpenseCategory { get;set;}
-
         public string ExpenseCategory { get; set; }
 
-        //public Expense(string expenseName, decimal amount, DateTime date, string expenseCategory)
-        //{
-           
-        //}
+        public Expense(string expenseName, decimal amount, DateTime date, string expenseCategory)
+        {
 
+        }
+        public Expense()
+        {
+
+
+        }
     }
 }

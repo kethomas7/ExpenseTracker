@@ -1,11 +1,9 @@
-﻿
-
-using ExpenseTracker;
-using System;
+﻿using System;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Xml.Linq;
 using System.Numerics;
 using System.Security.Cryptography;
+using ExpenseTracker.Models;
 
 
 //var ExpenseList = new List<Expense>();
@@ -24,7 +22,24 @@ var test2 = new Expense()
     ExpenseCategory = "Fun",
     Amount = 89.65m,
     Date = DateTime.Parse("05/16/2023")
+
 };
+
+var test6 = new Expense()
+{
+    ExpenseName = "Target",
+    ExpenseCategory = "Shopping",
+    Amount = 29.65m,
+    Date = DateTime.Parse("9/10/2023")
+};
+var test7 = new Expense()
+{
+    ExpenseName = "Beauty supply",
+    ExpenseCategory = "Hair",
+    Amount = 389.65m,
+    Date = DateTime.Parse("09/29/2023")
+};
+
 var test3 = new Expense()
 {
     ExpenseName = "GasStation",
@@ -47,26 +62,27 @@ var test5 = new Expense()
     Date = DateTime.Parse("05/23/2023")
 };
 
-var ExpenseList = new List<Expense>() { test1, test2, test3, test4, test5 };
-
+var ExpenseList = new List<Expense>() { test1, test2, test3, test4, test5, test6, test7 };
 
 MainMenu();
 
- void MainMenu()
+void MainMenu()
 {
-    
-    Console.Clear();
-    Console.ForegroundColor = ConsoleColor.Magenta;//colors text a certain color
-    Console.WriteLine("Expense Tracker 3000");
-    Console.ResetColor();// sets it back to default color
+    while (true)
+    {
+        Console.Clear();
+        Console.ForegroundColor = ConsoleColor.Magenta;//colors text a certain color
+        Console.WriteLine("Expense Tracker 3000");
+        Console.ResetColor();// sets it back to default color
 
-    Console.WriteLine("\nOption 1: Add an expense");
-    Console.WriteLine("Option 2: Monthly expense report");
-    Console.WriteLine("Option 3: Budget/Expense Comparison");
-    Console.WriteLine("Option 4: Exit");
-    Console.WriteLine("\nEnter 1, 2, 3, or 4 to navigate");
+        Console.WriteLine("\nOption 1: Add an expense");
+        Console.WriteLine("Option 2: Monthly expense report");
+        Console.WriteLine("Option 3: Budget/Expense Comparison");
+        Console.WriteLine("Option 4: Exit");
+        Console.WriteLine("\nEnter 1, 2, 3, or 4 to navigate");
 
-    string optionSelected = Console.ReadLine();
+        string optionSelected = Console.ReadLine();
+
 
 
         switch (optionSelected)
@@ -78,7 +94,7 @@ MainMenu();
 
                 if (answer == "yes")
                 {
-                    // AddExpense();
+                     AddExpense();
                 }
                 else
                 {
@@ -99,7 +115,7 @@ MainMenu();
             case "3":
 
 
-                Console.WriteLine("Enter the month you would like to compare the budget and expenses");
+                Console.WriteLine("\nEnter the month you would like to compare the budget and expenses");
                 string nameOfBudgetMonth = Console.ReadLine();
 
                 Console.WriteLine($"\nWhat was your budget for the month of {nameOfBudgetMonth}");
@@ -110,72 +126,81 @@ MainMenu();
                 int numberOfBudgetMonth = MonthConverter(nameOfBudgetMonth);
                 decimal total = MonthlyExpenseReport(numberOfBudgetMonth);
 
-
-
                 MonthlyBudgetComparison(budget, total);
 
                 break;
             case "4":
-            Console.WriteLine("Exiting application!");
-          
+                Console.WriteLine("\nExiting application!");
+                
+                return;
+
+            default:
+                Console.WriteLine("\nPlease enter 1, 2, 3, 4, to navigate");
+                optionSelected = Console.ReadLine();
                 break;
         }
-        
-   
-    // MainMenu();
+
+    }
+
+    //   MainMenu();
 }
 
 
 
 
 
-//void AddExpense()
-//{
-//    Console.WriteLine("\nEnter the information regarding your expense:\nExpense Amount:");
-//    decimal amount = Decimal.Parse(Console.ReadLine());
-//    Console.WriteLine("\nExpense Category:");
-//    string category = Console.ReadLine();
-//    Console.WriteLine("\nExpense Name:");
-//    string name = Console.ReadLine();
-//    Console.WriteLine("\nExpense Date:");
-//    DateTime date = DateTime.Parse(Console.ReadLine());
 
 
-//    Expense Expense = new Expense(name, amount, date, category)
-//    {
-//        Amount = amount,
-//        ExpenseCategory = category,
-//        ExpenseName = name,
-//        Date = date
-//    };
-//    ExpenseList.Add(Expense);
 
-//    ExpenseSummaryCheck();
 
-//}
+void AddExpense()
+{
+    Console.WriteLine("\nEnter the information regarding your expense:\nExpense Amount:");
+    decimal amount = Decimal.Parse(Console.ReadLine());
+    Console.WriteLine("\nExpense Category:");
+    string category = Console.ReadLine();
+    Console.WriteLine("\nExpense Name:");
+    string name = Console.ReadLine();
+    Console.WriteLine("\nExpense Date:");
+    DateTime date = DateTime.Parse(Console.ReadLine());
+
+
+    Expense Expense = new Expense(name, amount, date, category)
+    {
+        Amount = amount,
+        ExpenseCategory = category,
+        ExpenseName = name,
+        Date = date
+    };
+    ExpenseList.Add(Expense);
+
+    ExpenseSummaryCheck();
+
+}
 
 void ExpenseSummaryCheck()
 {
     Console.WriteLine("\nWould you like to view a summary of your expenses? Yes or No");
     string answer = Console.ReadLine();
+
     if (answer == "yes".ToLower())
     {
+        Console.WriteLine("\nExpense Summary");
         foreach (var item in ExpenseList)
         {
-            Console.WriteLine($"\nExpense List Summary\n\nExpense Name: {item.ExpenseName} | Expense Cateorgy: {item.ExpenseCategory} | Date: {item.Date} | Amount: {item.Amount}");
+            Console.WriteLine($"\nExpense Name: {item.ExpenseName} | Expense Cateorgy: {item.ExpenseCategory} | Date: {item.Date} | Amount: {item.Amount}");
         }
     }
-    else
-    {
-        MainMenu();
-    }
+    Console.WriteLine("\nPress any key to continue");
+    Console.ReadKey();
+
 }
 
 decimal MonthlyExpenseReport(int monthNumber)
 {
     decimal total = 0;
     var monthlyExpenses = ExpenseList.Where(expense => expense.Date.Month == monthNumber).OrderBy(expense => expense.Date).ToList();
-    // Console.WriteLine($"\nExpense List Summary");
+
 
     foreach (var expense in monthlyExpenses)
     {
@@ -189,7 +214,11 @@ decimal MonthlyExpenseReport(int monthNumber)
 
     Console.WriteLine($"\nTotal expenses: ${total}");
 
+    Console.WriteLine("\nPress any key to continue");
+    Console.ReadKey();
+
     return total;
+
 
 }
 void MonthlyBudgetComparison(decimal budget, decimal totalExpenses)
@@ -198,65 +227,66 @@ void MonthlyBudgetComparison(decimal budget, decimal totalExpenses)
     decimal newBudget = budget - totalExpenses;
     Console.WriteLine($"Budget total at the end of the month: ${newBudget}");
 
-    //Percent Decrease = [(Old Value - New Value) / Old Value] × 100]
 
-    decimal percentDecrease = (((budget - newBudget )/ budget) * 100);
+
+    decimal percentDecrease = (((budget - newBudget) / budget) * 100);
 
     Console.WriteLine($"Percent decrease:{Decimal.Round(percentDecrease)}%");
 
-
+    Console.WriteLine("\nPress any key to continue");
+    Console.ReadKey();
 }
 int MonthConverter(string month)
-    {
-    Console.WriteLine($"\nHere are your {month} expenses:");
+{
+
 
     switch (month.ToLower())
-        {
-            case "january":
-          //  Console.WriteLine("\nHere are your May expenses:");
+    {
+        case "january":
+            Console.WriteLine("\nHere are your January expenses:");
             return 1;
 
-            case "february":
-            //Console.WriteLine("\nHere are your May expenses:");
+        case "february":
+            Console.WriteLine("\nHere are your February expenses:");
             return 2;
-            case "march":
-            //Console.WriteLine("\nHere are your May expenses:");
+        case "march":
+            Console.WriteLine("\nHere are your March expenses:");
             return 3;
-            case "april":
-            //Console.WriteLine("\nHere are your May expenses:");
+        case "april":
+            Console.WriteLine("\nHere are your April expenses:");
             return 4;
-            case "may":
-              //  Console.WriteLine("\nHere are your May expenses:");
-                return 5;
-            case "june":
-            //Console.WriteLine("\nHere are your May expenses:");
+        case "may":
+            Console.WriteLine("\nHere are your May expenses:");
+            return 5;
+        case "june":
+            Console.WriteLine("\nHere are your June expenses:");
             return 6;
-            case "july":
-            //Console.WriteLine("\nHere are your May expenses:");
+        case "july":
+            Console.WriteLine("\nHere are your July expenses:");
             return 7;
-            case "august":
-            //Console.WriteLine("\nHere are your May expenses:");
+        case "august":
+            Console.WriteLine("\nHere are your August expenses:");
             return 8;
-            case "september":
-            //Console.WriteLine("\nHere are your May expenses:");
+        case "september":
+            Console.WriteLine("\nHere are your September expenses:");
             return 9;
-            case "october":
-            //Console.WriteLine("\nHere are your May expenses:");
+        case "october":
+            Console.WriteLine("\nHere are your October expenses:");
             return 10;
-            case "november":
-            //Console.WriteLine("\nHere are your May expenses:");
+        case "november":
+            Console.WriteLine("\nHere are your November expenses:");
             return 11;
-            case "december":
-            //Console.WriteLine("\nHere are your Decem expenses:");
+        case "december":
+            Console.WriteLine("\nHere are your December expenses:");
             return 12;
-            default: return 0;
+        default: return 0;
 
 
 
 
     }
 
-    
+
 
 }
 

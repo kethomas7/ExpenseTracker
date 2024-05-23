@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12EE49EB-F15B-4AAD-85E4-78AFD250BA70}|ExpenseTracker.Test\\ExpenseTracker.Test.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker.test\\expensetracker.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{12EE49EB-F15B-4AAD-85E4-78AFD250BA70}|ExpenseTracker.Test\\ExpenseTracker.Test.csproj|solutionrelative:expensetracker.test\\expensetracker.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\expensetracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\expensetracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\expensecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\expensecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\expensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\expensemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\interfaces\\iexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\interfaces\\iexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,55 +38,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExpenseManager.cs",
-              "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\ExpenseManager.cs",
-              "RelativeDocumentMoniker": "ExpenseTracker\\ExpenseManager.cs",
-              "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\ExpenseManager.cs",
-              "RelativeToolTip": "ExpenseTracker\\ExpenseManager.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAQwB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T01:23:32.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ExpenseCategory.cs",
-              "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\ExpenseCategory.cs",
-              "RelativeDocumentMoniker": "ExpenseTracker\\ExpenseCategory.cs",
-              "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\ExpenseCategory.cs",
-              "RelativeToolTip": "ExpenseTracker\\ExpenseCategory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T20:37:46.805Z",
-              "EditorCaption": ""
+              "Title": "ExpenseTracker.Test.csproj",
+              "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker.Test\\ExpenseTracker.Test.csproj",
+              "RelativeDocumentMoniker": "ExpenseTracker.Test\\ExpenseTracker.Test.csproj",
+              "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker.Test\\ExpenseTracker.Test.csproj",
+              "RelativeToolTip": "ExpenseTracker.Test\\ExpenseTracker.Test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T21:24:15.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Expense.cs",
-              "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Expense.cs",
-              "RelativeDocumentMoniker": "ExpenseTracker\\Expense.cs",
-              "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Expense.cs",
-              "RelativeToolTip": "ExpenseTracker\\Expense.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:12:24.929Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "ExpenseTracker.csproj",
+              "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker.csproj",
+              "RelativeDocumentMoniker": "ExpenseTracker\\ExpenseTracker.csproj",
+              "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\ExpenseTracker.csproj",
+              "RelativeToolTip": "ExpenseTracker\\ExpenseTracker.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T19:51:20.907Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\Models\\Expense.cs",
+              "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Models\\Expense.cs",
+              "RelativeToolTip": "ExpenseTracker\\Models\\Expense.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAqwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:39:07.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IExpense.cs",
+              "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Interfaces\\IExpense.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\Interfaces\\IExpense.cs",
+              "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Interfaces\\IExpense.cs",
+              "RelativeToolTip": "ExpenseTracker\\Interfaces\\IExpense.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T19:52:00.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Program.cs",
               "RelativeDocumentMoniker": "ExpenseTracker\\Program.cs",
               "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Program.cs",
               "RelativeToolTip": "ExpenseTracker\\Program.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAAwHEAAAAAAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAuwFgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T13:39:11.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T13:39:11.648Z"
             }
           ]
         }
