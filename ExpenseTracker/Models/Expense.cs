@@ -1,28 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ExpenseTracker.Interfaces;
 
 namespace ExpenseTracker.Models
 {
-    public class Expense
+    public class Expense : IExpense
     {
-        public string ExpenseName { get; set; }
+        public string ExpenseName { get; set; } = string.Empty;
         public decimal Amount { get; set; }
-
         public DateTime Date { get; set; }
+        public string ExpenseCategory { get; set; } = string.Empty;
 
-        public string ExpenseCategory { get; set; }
+        public Expense() { }
 
-        public Expense(string expenseName, decimal amount, DateTime date, string expenseCategory)
-        {
-
-        }
-        public Expense()
-        {
-
-
-        }
     }
 }
