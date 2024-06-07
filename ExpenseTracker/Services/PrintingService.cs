@@ -3,6 +3,10 @@
     public class PrintingService
     {
 
-        //console.writeLine go here
+        public void SelectMonth ()
+        {
+            Console.WriteLine("Please enter a month");
+
+        }
     }
 }

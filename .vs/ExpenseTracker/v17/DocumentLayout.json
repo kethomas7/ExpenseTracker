@@ -7,28 +7,28 @@
       "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\services\\printingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\services\\printingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\interfaces\\iexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\interfaces\\iexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\interfaces\\iexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\interfaces\\iexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\services\\printingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\services\\printingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A61BF4E5-B1C0-4FAA-BD80-25C25F8F2535}|ExpenseTracker\\ExpenseTracker.csproj|solutionrelative:expensetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12EE49EB-F15B-4AAD-85E4-78AFD250BA70}|ExpenseTracker.Test\\ExpenseTracker.Test.csproj|c:\\users\\kaitlyn\\repos\\expensetracker\\expensetracker.test\\expensetracker.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -54,39 +54,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "PrintingService.cs",
               "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Services\\PrintingService.cs",
               "RelativeDocumentMoniker": "ExpenseTracker\\Services\\PrintingService.cs",
               "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Services\\PrintingService.cs",
               "RelativeToolTip": "ExpenseTracker\\Services\\PrintingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T22:07:02.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ExpenseService.cs",
               "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Services\\ExpenseService.cs",
               "RelativeDocumentMoniker": "ExpenseTracker\\Services\\ExpenseService.cs",
               "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Services\\ExpenseService.cs",
               "RelativeToolTip": "ExpenseTracker\\Services\\ExpenseService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAYwEcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T22:06:31.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MenuService.cs",
               "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Services\\MenuService.cs",
               "RelativeDocumentMoniker": "ExpenseTracker\\Services\\MenuService.cs",
               "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Services\\MenuService.cs",
               "RelativeToolTip": "ExpenseTracker\\Services\\MenuService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAQwFEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T22:05:22.538Z",
               "EditorCaption": ""
@@ -99,7 +99,7 @@
               "RelativeDocumentMoniker": "ExpenseTracker\\Services\\ApplicationService.cs",
               "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Services\\ApplicationService.cs",
               "RelativeToolTip": "ExpenseTracker\\Services\\ApplicationService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAAANwAAAB3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T21:57:06.046Z",
               "EditorCaption": ""
@@ -107,6 +107,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Program.cs",
+              "RelativeDocumentMoniker": "ExpenseTracker\\Program.cs",
+              "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Program.cs",
+              "RelativeToolTip": "ExpenseTracker\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T13:39:11.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IExpense.cs",
               "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Interfaces\\IExpense.cs",
               "RelativeDocumentMoniker": "ExpenseTracker\\Interfaces\\IExpense.cs",
@@ -114,19 +127,8 @@
               "RelativeToolTip": "ExpenseTracker\\Interfaces\\IExpense.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T21:43:31.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ExpenseTracker.Test.csproj",
-              "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker.Test\\ExpenseTracker.Test.csproj",
-              "RelativeDocumentMoniker": "ExpenseTracker.Test\\ExpenseTracker.Test.csproj",
-              "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker.Test\\ExpenseTracker.Test.csproj",
-              "RelativeToolTip": "ExpenseTracker.Test\\ExpenseTracker.Test.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-23T21:24:15.529Z"
+              "WhenOpened": "2024-05-23T21:43:31.01Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -142,28 +144,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Expense.cs",
               "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Models\\Expense.cs",
               "RelativeDocumentMoniker": "ExpenseTracker\\Models\\Expense.cs",
               "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Models\\Expense.cs",
               "RelativeToolTip": "ExpenseTracker\\Models\\Expense.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T20:39:07.383Z"
+              "WhenOpened": "2024-05-23T20:39:07.383Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Program.cs",
-              "RelativeDocumentMoniker": "ExpenseTracker\\Program.cs",
-              "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker\\Program.cs",
-              "RelativeToolTip": "ExpenseTracker\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T13:39:11.648Z",
-              "EditorCaption": ""
+              "DocumentIndex": 7,
+              "Title": "ExpenseTracker.Test.csproj",
+              "DocumentMoniker": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker.Test\\ExpenseTracker.Test.csproj",
+              "RelativeDocumentMoniker": "ExpenseTracker.Test\\ExpenseTracker.Test.csproj",
+              "ToolTip": "C:\\Users\\Kaitlyn\\repos\\ExpenseTracker\\ExpenseTracker.Test\\ExpenseTracker.Test.csproj",
+              "RelativeToolTip": "ExpenseTracker.Test\\ExpenseTracker.Test.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T21:24:15.529Z"
             }
           ]
         }
